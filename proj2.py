@@ -1,7 +1,7 @@
 '''this project sorts numbers in file.'''
 file = open('rand_num', 'r')
 file = file.read()
-num_count = file.split(': ')
+num_count = file.split(': ') 
 numbers = []
 for num in num_count:
     ind1 = num.find('`')
