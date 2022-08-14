@@ -5,7 +5,7 @@ for i in range(1, 201):
       lst.append(i)
 count = 0
 my_dict = {'1': count}
-for ind in range(4 * 10**6):
+for ind in range(4 * 10**9):
       num = random.choice(lst)
       for n in my_dict:
               if n == f'{num}':
