@@ -9,7 +9,7 @@ for num in num_count:
     numbers.append(num[ind1 + 1:ind2])
 for i in range(len(numbers)):
       for j in range(len(numbers) - 1 - i):
-            if numbers[j] > numbers[j + 1]:
+            if int(numbers[j]) > int(numbers[j + 1]):
                   numbers[j], numbers[j + 1] = numbers[j + 1], numbers[j]
                   num_count[j], num_count[j + 1] = num_count[j + 1], num_count[j]
 new = open('sorted_rand_nums', 'w')
