@@ -1,4 +1,4 @@
-'''this project sorts numbers in file.'''
+'''this project sorts numbers in file where is 4 * 10**9 numbers: using less than 200MB memory.'''
 file = open('rand_num', 'r')
 file = file.read()
 num_count = file.split(': ') 
